@@ -1,0 +1,95 @@
+@import url(https://fonts.googleapis.com/css2?family=Comfortaa&display=swap);
+
+
+body
+{
+    font-family: Comfortaa,serif;
+    background: linear-gradient(34deg, #aa0e0e 0%, #47bee6 100%);
+}
+p,
+h3
+{
+    color: bisque;
+}
+.nav-link
+{
+    color:bisque
+}
+
+.navbar-nav .nav-link.active
+{
+    color:aquamarine
+}
+
+.navbar-brand img
+{
+    width: 40px;
+}
+.navbar-toggler
+{
+    background-color: rgb(35, 83, 138);
+}
+
+.sidebar
+{
+    color: bisque ;
+    background: linear-gradient(90deg, #ca2828 0%, #32a4ca 100%);    
+}
+
+.card
+{
+    background: linear-gradient(90deg, #ca2828 0%, #32a4ca 100%);    
+    color: bisque;
+}
+
+.card a
+{
+    text-decoration: none;
+    color: bisque;
+
+}
+
+.slide-text,
+.footer-text
+{
+    color: bisque;
+    margin:auto auto;
+}
+
+footer,
+.btn-outline-danger
+{
+    background: linear-gradient(135deg, #ca2828 0%, #32a4ca 100%);  
+
+
+}
+
+.media-links
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-anim
+{
+    animation: myAnim 1.5s ease 0s infinite normal forwards;
+}
+@keyframes myAnim {
+    0% {
+    opacity: 1;
+    transform: scale(1);
+    }
+   
+    100% {
+    opacity: 0;
+    transform: scale(0.6);
+    }
+   }
+@media (max-width:755px)
+{
+    .carousel-indicators
+    {
+        display: none;
+    }
+}
